@@ -444,6 +444,10 @@
       width: 100vh;
     }
 
+    .hero .leftcol{
+      width: 100vh;
+    }
+    
     .hero .leftcol .h1{
       font-size: 40px;
       margin-left: 0px;
@@ -508,6 +512,7 @@
     .wrapper .box_wrapper .box_row{
       flex-direction: column;
       margin-left: 100px;
+      width: 100vh;
     }
 
     .wrapper .box_wrapper .box_row .box_col.box_col_1{
@@ -537,6 +542,7 @@
 
       text-align: center;
       margin-left: 0px;
+      width: 100vh;
 
 
     }
