@@ -449,29 +449,43 @@
     }
 
     .hero .leftcol .h1{
-      font-size: 40px;
+      font-size: 75px;
       margin-left: 0px;
       text-align: center;
 
     }
 
     .hero .leftcol .h2{
-      font-size: 15px;
+      font-size: 35px;
       margin-left: 0px;
       text-align: center;
     }
 
     .hero .leftcol .buttons{
-      margin-left: 300px;
+      margin-left: 175px;
     }
 
+    .hero .leftcol .buttons .button1{
+      width: 250px;
+      height: 50px;
+      font-size: 23px;
+    }
+
+    .hero .leftcol .buttons .button2{
+      width: 250px;
+      height: 50px;
+      font-size: 23px;
+    }
+
+
+
     .hero .rightcol .image{
-      width: 450px;
-      margin-left: 225px;
+      width: 750px;
+      margin-left: 70px;
     }
 
     .numbers .number-item .number{
-      font-size: 15px;
+      font-size: 45px;
 
     }
 
@@ -488,7 +502,7 @@
     }
 
     .numbers .number-item .text{
-      font-size: 15px;
+      font-size: 25px;
     }
 
     .wrapper .header .moto{
@@ -517,18 +531,88 @@
 
     .wrapper .box_wrapper .box_row .box_col.box_col_1{
       margin-top: 10px;
+      width: 700px;
+      height: 700px;
+      margin-left: -150px;
     }
+
+    .wrapper .box_wrapper .box_row .box_col.box_col_1 .box_img img{
+      width: 110px;
+    }
+
+    .wrapper .box_wrapper .box_row .box_col.box_col_1 .box_title{
+      font-size: 55px;
+    }
+
+    .wrapper .box_wrapper .box_row .box_col.box_col_1 .box_des{
+      font-size: 25px;
+    }
+
+
+
 
     .wrapper .box_wrapper .box_row .box_col.box_col_2{
       margin-top: 40px;
+      width: 700px;
+      height: 700px;
+      margin-left: -150px;
     }
+
+    .wrapper .box_wrapper .box_row .box_col.box_col_2 .box_title{
+      font-size: 55px;
+    }
+
+
+    .wrapper .box_wrapper .box_row .box_col.box_col_2 .box_img img{
+      width: 110px;
+    }
+
+    .wrapper .box_wrapper .box_row .box_col.box_col_2 .box_des{
+      font-size: 25px;
+    }
+
     .wrapper .box_wrapper .box_row .box_col.box_col_3{
       margin-top: 40px;
+      width: 700px;
+      height: 700px;
+      margin-left: -150px;
     }
+
+    .wrapper .box_wrapper .box_row .box_col.box_col_3 .box_img img{
+      width: 110px;
+    }
+
+    .wrapper .box_wrapper .box_row .box_col.box_col_3 .box_title{
+      font-size: 55px;
+    }
+
+    .wrapper .box_wrapper .box_row .box_col.box_col_3 .box_des{
+      font-size: 25px;
+    }
+
+
+    
 
     .wrapper .box_wrapper .box_row .box_col.box_col_4{
       margin-top: 40px;
+      width: 700px;
+      height: 700px;
+      margin-left: -150px;
     }
+
+    .wrapper .box_wrapper .box_row .box_col.box_col_4 .box_img img{
+      width: 110px;
+    }
+
+    .wrapper .box_wrapper .box_row .box_col.box_col_4 .box_title{
+      font-size: 55px;
+    }
+
+    .wrapper .box_wrapper .box_row .box_col.box_col_4 .box_des{
+      font-size: 25px;
+    }
+
+
 
     .containertogether{
       
@@ -545,6 +629,10 @@
       width: 100vh;
 
 
+    }
+
+    .containertogether .container2 .clients{
+      font-size: 65px;
     }
 
     .containertogether .container{
@@ -565,6 +653,10 @@
 
     .hero4 .schedule{
       margin-left: 10px;
+    }
+
+    .hero4 .schedule .meeting{
+      font-size: 55px;
     }
 
 
