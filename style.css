@@ -14,7 +14,7 @@
     justify-content: flex-end;
     align-items: center;
     padding: 30px 10%;
-    background-color: #24252a;
+    background-color: #24252a; 
   }
   
   .logo {
@@ -24,6 +24,7 @@
   .nav__links {
     list-style: none;
     display: flex;
+    
   }
   
   .nav__links a,
@@ -43,10 +44,6 @@
     transition: all 0.3s ease 0s;
   }
   
-  .nav__links li a:hover {
-    color: #0088a9;
-  }
-  
   .cta {
     margin-left: 20px;
     padding: 9px 25px;
@@ -54,7 +51,7 @@
     border: none;
     border-radius: 50px;
     cursor: pointer;
-    transition: all 0.3s ease 0s;
+    
   }
   
 
@@ -73,7 +70,7 @@
     top: 0;
     background-color: #24252a;
     overflow-x: hidden;
-    transition: all 0.5s ease 0s;
+    
   }
   
   .overlay--active {
@@ -92,22 +89,10 @@
     padding: 15px;
     font-size: 36px;
     display: block;
-    transition: all 0.3s ease 0s;
+    text-decoration: none;
+    
   }
-  
-  .overlay a:hover,
-  .overlay a:focus {
-    color: #0088a9;
-  }
-  .overlay .close {
-    position: absolute;
-    top: 20px;
-    right: 45px;
-    font-size: 60px;
-    color: #edf0f1;
-    cursor: pointer;
-  }
-  
+ 
   .hero{
     box-sizing: border-box;
     display: flex;
@@ -136,6 +121,7 @@
     font-size: 20px;
 
   }
+  
 
   .leftcol .buttons{
     margin-left: 150px;
@@ -148,7 +134,6 @@
     border: none;
     border-radius: 50px;
     cursor: pointer;
-    transition: all 0.3s ease 0s;
     color: white;
 
   }
@@ -160,8 +145,8 @@
     border: none;
     border-radius: 50px;
     cursor: pointer;
-    transition: all 0.3s ease 0s;
     color: white;
+    text-decoration: none;
   }
 
   .numbers {

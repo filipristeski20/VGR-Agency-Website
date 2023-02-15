@@ -7,32 +7,33 @@
         <meta name="viewport" content="width=device-width", initial-scale="1.0">
         <link rel="stylesheet" href="style.css">
         <link href="https://fonts.googleapis.com/css?family=Montserrat:500&display=swap" rel="stylesheet">
+        <style>
+
+        
+  
+            </style>
+
     </head>
     <body>
         <header>
-            <a class="logo" href="/"><img src="images/vgr-agency-low-resolution-logo-color-on-transparent-background.svg" alt="logo" width="250px"></a>
+            <a class="logo" href="#heropage" style="text-decoration: none !important;"><img src="images/vgr-agency-low-resolution-logo-color-on-transparent-background.svg" alt="logo" width="250px" class="logoto"></a>
             <nav>
             </nav>
-            <a class="cta" href="#">Schedule</a>
-            <p class="menu cta">Schedule</p>
+            <a class="cta" href="#schedulemeeting">Schedule</a>
         </header>
         <div id="mobile__menu" class="overlay">
             <a class="close">&times;</a>
-            <div class="overlay__content">
-                <a href="#">Services</a>
-                <a href="#">Projects</a>
-                <a href="#">About</a>
-            </div>
+            
         </div>
 
-        <div class="hero">
+        <div class="hero" id="heropage">
 
             <div class="leftcol">
                 <h1 class="h1">CONNECT, ENGAGE <br> AND <span class="grow"> GROW </span> WITH US</h1>
                 <h2 class="h2">Unleash your Social Potential with our Facebook, <br> Instagram, Google and TikTok advertising solutions.</h2>
                 <div class="buttons">
-                    <button class="button1">Get started</button>
-                    <button class="button2">Schedule a call</button>
+                    <button class="button1" ><a href="#wrapperpage" style="text-decoration: none; color: white; background-color: #E32636;">Get started</a></button>
+                    <button class="button2" ><a href="#schedulemeeting"  style="text-decoration: none; color: white; background-color: #E32636 ">Schedule a call</a></button>
                 </div>
 
 
@@ -59,7 +60,7 @@
             </div>
           </div>
 
-          <div class="wrapper">
+          <div class="wrapper" id="wrapperpage">
             <div class="header">
                 <h1 class="services">OUR SERVICES</h1>
                 <h3 class="moto">
@@ -208,9 +209,10 @@
 </div>
 
 
-    <section class="hero4">
+    <section class="hero4" id="schedulemeeting">
+        
         <div class="schedule">
-            <h1 class="meeting">SCHEDULE A MEETING WITH US </h1>
+            <h1 class="meeting" >SCHEDULE A MEETING WITH US </h1>
         </div>
     <!-- Principio del widget integrado de Calendly -->
     <div class="calendly-inline-widget" data-url="https://calendly.com/vgragency-contact" style="min-width:320px;height:730px;"></div>
