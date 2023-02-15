@@ -426,7 +426,7 @@
     }
 
     header .logo{
-      margin-left: 70px;
+      margin-left: 190px;
     }
 
     
@@ -447,7 +447,7 @@
     .hero .leftcol{
       width: 100vh;
     }
-    
+
     .hero .leftcol .h1{
       font-size: 40px;
       margin-left: 0px;
@@ -462,12 +462,12 @@
     }
 
     .hero .leftcol .buttons{
-      margin-left: 145px;
+      margin-left: 300px;
     }
 
     .hero .rightcol .image{
       width: 450px;
-      margin-left: 70px;
+      margin-left: 225px;
     }
 
     .numbers .number-item .number{
@@ -511,7 +511,7 @@
 
     .wrapper .box_wrapper .box_row{
       flex-direction: column;
-      margin-left: 100px;
+      margin-left: 250px;
       width: 100vh;
     }
 
@@ -541,14 +541,15 @@
       
 
       text-align: center;
-      margin-left: 0px;
+      margin-left: -60px;
       width: 100vh;
 
 
     }
 
     .containertogether .container{
-      margin-left: 0px;
+      margin-left: 135px;
+
       
     }
 
