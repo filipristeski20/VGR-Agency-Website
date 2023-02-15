@@ -415,7 +415,7 @@
 
     body{
       box-sizing: border-box;
-      width: 500px;
+      
       overflow-x:hidden;
       
     }
@@ -475,7 +475,7 @@
     }
 
     .numbers{
-      width: 500px;
+      
 
     }
 
@@ -489,7 +489,7 @@
     }
 
     .wrapper{
-      width: 500px;
+      
     }
 
     .wrapper .box_wrapper .box_row{
@@ -513,13 +513,13 @@
     }
 
     .containertogether{
-      width: 500px;
+      
       flex-direction: column;
 
     }
 
     .containertogether .container2{
-      width: 500px;
+      
 
       text-align: center;
       margin-left: -50px;
@@ -529,12 +529,12 @@
 
     .containertogether .container{
       margin-left: -15px;
-      width: 500px;
+      
     }
 
     .calendly-inline-widget{
       margin-top: 30px;
-      width: 500px;
+      
     }
 
 
