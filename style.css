@@ -411,12 +411,13 @@
     margin-top: 90px;
   }
 
-  @media screen and (max-width: 500px) {
+  @media screen and (max-width: 420px) {
 
     body{
       box-sizing: border-box;
       
       overflow-x:hidden;
+      width: 100%;
       
     }
 
@@ -425,7 +426,7 @@
     }
 
     header .logo{
-      margin-left: 60px;
+      margin-left: 70px;
     }
 
     
@@ -444,24 +445,24 @@
 
     .hero .leftcol .h1{
       font-size: 40px;
-      margin-left: -70px;
+      margin-left: 0px;
       text-align: center;
 
     }
 
     .hero .leftcol .h2{
       font-size: 15px;
-      margin-left: -70px;
+      margin-left: 0px;
       text-align: center;
     }
 
     .hero .leftcol .buttons{
-      margin-left: 90px;
+      margin-left: 145px;
     }
 
     .hero .rightcol .image{
       width: 450px;
-      margin-left: 15px;
+      margin-left: 70px;
     }
 
     .numbers .number-item .number{
@@ -470,11 +471,13 @@
     }
 
     .numbers .number-item{
-      margin: 0 10px;
-      width: 100vh;
+      margin: 0 50px;
+      
     }
 
     .numbers{
+
+      width: 100vh;
       
 
     }
@@ -486,6 +489,12 @@
     .wrapper .header .moto{
       font-size: 16px;
       text-align: center;
+      margin-left: 200px;
+    }
+
+    .wrapper .header .services{
+      margin-left: 200px;
+      font-size: 45px;
     }
 
     .wrapper{
@@ -494,7 +503,7 @@
 
     .wrapper .box_wrapper .box_row{
       flex-direction: column;
-      margin-left: 45px;
+      margin-left: 180px;
     }
 
     .wrapper .box_wrapper .box_row .box_col.box_col_1{
@@ -522,19 +531,24 @@
       
 
       text-align: center;
-      margin-left: -50px;
+      margin-left: 0px;
 
 
     }
 
     .containertogether .container{
-      margin-left: -15px;
+      margin-left: 100px;
       
     }
 
     .calendly-inline-widget{
       margin-top: 30px;
+      margin-left: 150px;
       
+    }
+
+    .hero4 .schedule{
+      margin-left: 200px;
     }
 
 
