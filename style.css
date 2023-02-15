@@ -441,6 +441,7 @@
 
     .hero{
       display: table-row;
+      width: 100vh;
     }
 
     .hero .leftcol .h1{
@@ -498,6 +499,7 @@
     }
 
     .wrapper{
+      width: 100vh;
       
     }
 
@@ -524,6 +526,7 @@
     .containertogether{
       
       flex-direction: column;
+      width: 100vh;
 
     }
 
@@ -545,6 +548,10 @@
       margin-top: 30px;
       margin-left: 150px;
       
+    }
+
+    .hero4{
+      width: 100vh;
     }
 
     .hero4 .schedule{
